@@ -1,0 +1,661 @@
+# sent_id = kaz-corpus-s1
+# text = Бүгінгі сапарымыз мен үшін мәңгі есте қалатындай ерекше сапар болды.
+# translit = Bügıngı saparymyz men üşın mäñgı este qalatyndai erekşe sapar boldy.
+# translation = Today's trip was such a special journey that it will remain in my memory forever.
+1	Бүгінгі	бүгін	ADJ	Adj	_	2	amod	_	_
+2	сапарымыз	сапар	NOUN	N	Case=Nom|Number[psor]=Plur|Person[psor]=1	10	nsubj	_	_
+3	мен	мен	PRON	Prn	Case=Dat|Number=Sing|Person=1	10	obl	_	_
+4	үшін	үшін	ADP	Post	_	3	case	_	_
+5	мәңгі	мәңгі	ADV	Adv	_	7	advmod	_	_
+6	есте	ес	NOUN	N	Case=Loc	7	obl	_	_
+7	қалатындай	қал	VERB	V	Mood=Cnd|Tense=Fut|VerbForm=Conv	9	acl	_	_
+8	ерекше	ерекше	ADJ	Adj	_	9	amod	_	_
+9	сапар	сапар	NOUN	N	Case=Nom	10	xcomp	_	_
+10	болды	бол	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	Sent	_	10	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s2
+# text = Оны Абай мен ұлы Ақылбай қолданған.
+# translit = Ony Abai men ūly Aqylbai qoldanğan.
+# translation = It was used by Abai and his son Akylbai.
+1	Оны	ол	PRON	Prn	Case=Acc|Number=Sing|Person=3	6	obj	_	_
+2	Абай	Абай	PROPN	Np	Case=Nom	6	nsubj	_	_
+3	мен	мен	CCONJ	Cnjcoo	_	5	cc	_	_
+4	ұлы	ұл	NOUN	N	Case=Nom|Number[psor]=Sing|Person[psor]=3	5	nmod	_	_
+5	Ақылбай	Ақылбай	PROPN	Np	Case=Nom	2	conj	_	_
+6	қолданған	қолдан	VERB	V	Aspect=Perf|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	Sent	_	6	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s3
+# text = Мен ол кезде ойыма кіріп-шықпаған ғылым жолына қарай бұрылып кеттім.
+# translit = Men ol kezde oiyma kırıp-şyqpağan ğylym jolyna qarai būrylyp kettım.
+# translation = At that time, I turned toward the path of science, which had never even crossed my mind before.
+1	Мен	мен	PRON	Prn	Case=Nom|Number=Sing|Person=1	10	nsubj	_	_
+2	ол	ол	DET	Det	_	3	det	_	_
+3	кезде	кез	NOUN	N	Case=Loc	10	obl	_	_
+4	ойыма	ой	NOUN	N	Case=Dat|Person[psor]=1	5	obl	_	_
+5	кіріп-шықпаған	кір	VERB	V	Polarity=Neg|Tense=Past|VerbForm=Part	7	acl	_	_
+6	ғылым	ғылым	NOUN	N	Case=Nom	7	compound	_	_
+7	жолына	жол	NOUN	N	Case=Dat	10	obl	_	_
+8	қарай	қарай	ADP	Post	_	7	case	_	_
+9	бұрылып	бұрыл	VERB	V	VerbForm=Conv	10	advcl	_	_
+10	кеттім	кет	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	Sent	_	10	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s4
+# text = Сен соның тілшісі болдың ғой?
+# translit = Sen sonyñ tılşısı boldyñ ğoi?
+# translation = You were his reporter, right?
+1	Сен	сен	PRON	Prn	Case=Nom|Number=Sing|Person=2	4	nsubj	_	_
+2	соның	ол	PRON	Prn	Case=Gen|Number=Sing|Person=3	3	nmod:poss	_	_
+3	тілшісі	тілші	NOUN	N	Case=Nom|Person[psor]=3	4	xcomp	_	_
+4	болдың	бол	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Past	0	root	_	_
+5	ғой	ғой	PART	mod_ass	_	4	discourse	_	SpaceAfter=No
+6	?	?	PUNCT	Sent	_	4	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s5
+# text = Сен керемет ақын екенсің ғой, бауырым-ай!
+# translit = Sen keremet aqyn ekensıñ ğoi, bauyrym-ai!
+# translation = You are a wonderful poet, my brother!
+1	Сен	сен	PRON	Prn	Case=Nom|Number=Sing|Person=2	3	nsubj	_	_
+2	керемет	керемет	ADJ	Adj	_	3	amod	_	_
+3	ақын	ақын	NOUN	N	Case=Nom	0	root	_	_
+4	екенсің	екен	PART	Part	_	3	discourse	_	_
+5	ғой	ғой	PART	mod_ass	_	3	discourse	_	SpaceAfter=No
+6	,	,	PUNCT	Cm	_	3	punct	_	_
+7	бауырым-ай	бауырым	NOUN	N	Case=Nom|Person[psor]=1	3	vocative	_	SpaceAfter=No
+8	!	!	PUNCT	Sent	_	3	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s6
+# text = Ол үйден шығысымен Сәруарға қоңырау шалды.
+# translit = Ol üiden şyğysymen Säruarğa qoñyrau şaldy.
+# translation = As soon as he left the house, he called Säruar.
+1	Ол	ол	PRON	Prn	Case=Nom|Number=Sing|Person=3	5	nsubj	_	_
+2	үйден	үй	NOUN	N	Case=Abl	3	obl	_	_
+3	шығысымен	шық	VERB	V	Tense=Past|VerbForm=Conv	5	advcl	_	_
+4	Сәруарға	Сәруар	PROPN	Np	Case=Dat	5	obl	_	_
+5	қоңырау	қоңырау	NOUN	N	Case=Nom	6	obj	_	_
+6	шалды	шал	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	Sent	_	6	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s7
+# text = Ол өзінің туған еліне, Торғай облысы Жанкелдин ауданына кетеді.
+# translit = Ol özınıñ tuğan elıne, Torğai oblysy Jankeldin audanyna ketedı.
+# translation = He goes to his homeland, to Jankeldin district of Torgai region.
+1	Ол	ол	PRON	Prn	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
+2	өзінің	өз	PRON	Prn	Case=Gen|Reflex=Yes	4	nmod	_	_
+3	туған	ту	VERB	V	Tense=Past|VerbForm=Part	4	amod	_	_
+4	еліне	ел	NOUN	N	Case=Dat	10	obl	_	SpaceAfter=No
+5	,	,	PUNCT	Cm	_	4	punct	_	_
+6	Торғай	Торғай	PROPN	Np	Case=Nom	4	appos	_	_
+7	облысы	облыс	NOUN	N	Case=Nom|Person[psor]=3	9	nmod	_	_
+8	Жанкелдин	Жанкелдин	PROPN	Np	Case=Nom	9	nmod	_	_
+9	ауданына	аудан	NOUN	N	Case=Dat	4	conj	_	_
+10	кетеді	кет	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	Sent	_	10	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s8
+# text = Бұл – ұлт өмірін реформалаудың альфа және омегасы.
+# translit = Būl – ūlt ömırın reformalaudyñ älfa jäne omegasy.
+# translation = This is the alpha and omega of reforming the nation's life.
+1	Бұл	бұл	PRON	Prn	Case=Nom|Number=Sing|Person=3	6	nsubj	_	_
+2	–	–	PUNCT	Punct	_	6	punct	_	_
+3	ұлт	ұлт	NOUN	N	Case=Nom	4	nmod	_	_
+4	өмірін	өмір	NOUN	N	Case=Acc|Person[psor]=3	5	obj	_	_
+5	реформалаудың	реформала	VERB	V	Case=Gen|Tense=Pres|VerbForm=Ger	6	nmod	_	_
+6	альфа	альфа	NOUN	N	Case=Nom	0	root	_	_
+7	және	және	CCONJ	Cnjcoo	_	8	cc	_	_
+8	омегасы	омега	NOUN	N	Case=Nom|Person[psor]=3	6	conj	_	SpaceAfter=No
+9	.	.	PUNCT	Sent	_	6	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s9
+# text = Және сол бақытты сәттерді өз көзімен көрді.
+# translit = Jäne sol baqytty sätterdı öz közımen kördı.
+# translation = And he saw those happy moments with his own eyes.
+1	Және	және	CCONJ	Cnjcoo	_	7	cc	_	_
+2	сол	сол	DET	Det	_	4	det	_	_
+3	бақытты	бақыт	ADJ	Adj	_	4	amod	_	_
+4	сәттерді	сәт	NOUN	N	Case=Acc|Number=Plur	7	obj	_	_
+5	өз	өз	PRON	Prn	Reflex=Yes	6	nmod	_	_
+6	көзімен	көз	NOUN	N	Case=Ins|Person[psor]=3	7	obl	_	_
+7	көрді	көр	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	Sent	_	7	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s10
+# text = Ал енді, жеке басыма келсек, олардан соң сыншылардың арасынан мені жанына жақын тартып, әдебиет туралы сырласқан жан бола қойған жоқ.
+# translit = Al endı, jeke basyma kelsek, olardan soñ synşylardyñ arasynan menı janyna jaqyn tartyp, ädebiet turaly syrlasqan jan bola qoiğan joq.
+# translation = And now, speaking of myself, none of the critics after them became someone close to me to talk sincerely about literature.
+1	Ал	ал	CCONJ	Cnjcoo	_	23	cc	_	_
+2	енді	енді	ADV	Adv	_	23	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	Cm	_	2	punct	_	_
+4	жеке	жеке	ADJ	Adj	_	5	amod	_	_
+5	басыма	бас	NOUN	N	Case=Dat|Person[psor]=1	6	obl	_	_
+6	келсек	кел	VERB	V	Mood=Cnd|Number=Plur|Person=1	23	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	Cm	_	6	punct	_	_
+8	олардан	ол	PRON	Prn	Case=Abl|Number=Plur	9	obl	_	_
+9	соң	соң	ADP	Post	_	11	case	_	_
+10	сыншылардың	сыншы	NOUN	N	Case=Gen|Number=Plur	11	nmod	_	_
+11	арасынан	ара	NOUN	N	Case=Abl	23	obl	_	_
+12	мені	мен	PRON	Prn	Case=Acc|Number=Sing|Person=1	15	obj	_	_
+13	жанына	жан	NOUN	N	Case=Dat|Person[psor]=3	15	obl	_	_
+14	жақын	жақын	ADJ	Adj	_	15	advmod	_	_
+15	тартып	тарт	VERB	V	VerbForm=Conv	19	advcl	_	SpaceAfter=No
+16	,	,	PUNCT	Cm	_	15	punct	_	_
+17	әдебиет	әдебиет	NOUN	N	Case=Nom	19	obl	_	_
+18	туралы	туралы	ADP	Post	_	17	case	_	_
+19	сырласқан	сырлас	VERB	V	Tense=Past|VerbForm=Part	20	acl	_	_
+20	жан	жан	NOUN	N	Case=Nom	23	nsubj	_	_
+21	бола	бол	VERB	V	VerbForm=Conv	23	advcl	_	_
+22	қойған	қой	VERB	V	Aspect=Perf|Tense=Past	23	xcomp	_	_
+23	жоқ	жоқ	ADJ	Adj	_	0	root	_	SpaceAfter=No
+24	.	.	PUNCT	Sent	_	23	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s11
+# text = Қар барысы қайда болса, бұл жануар да сонда.
+# translit = Qar barysy qaida bolsa, būl januar da sonda.
+# translation = Wherever the snow leopard is, this animal is there too.
+1	Қар	қар	NOUN	N	Case=Nom	2	nmod	_	_
+2	барысы	барыс	NOUN	N	Case=Nom|Person[psor]=3	4	nsubj	_	_
+3	қайда	қайда	ADV	Adv	_	4	advmod	_	_
+4	болса	бол	VERB	V	Mood=Cnd|Number=Sing|Person=3	9	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	Cm	_	4	punct	_	_
+6	бұл	бұл	PRON	Prn	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
+7	жануар	жануар	NOUN	N	Case=Nom	6	appos	_	_
+8	да	да	ADV	Postadv	_	9	advmod	_	_
+9	сонда	сонда	ADV	Adv	_	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	Sent	_	9	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s12
+# text = Ұшқан құс, жүгірген аң, бүкіл жан-жануарлар мен жәндіктерге дейін тіршілік үшін күреседі.
+# translit = Ūşqan qūs, jügırgen añ, bükıl jan-januarlar men jändıkterge deiın tırşılık üşın küresedı.
+# translation = Flying birds, running animals, all creatures and insects fight for life.
+1	Ұшқан	ұш	VERB	V	Tense=Past|VerbForm=Part	2	acl	_	_
+2	құс	құс	NOUN	N	Case=Nom	12	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	Cm	_	2	punct	_	_
+4	жүгірген	жүгір	VERB	V	Tense=Past|VerbForm=Part	5	acl	_	_
+5	аң	аң	NOUN	N	Case=Nom	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	Cm	_	5	punct	_	_
+7	бүкіл	бүкіл	DET	Det	_	8	det	_	_
+8	жан-жануарлар	жан-жануар	NOUN	N	Case=Nom|Number=Plur	14	nmod	_	_
+9	мен	мен	CCONJ	Cnjcoo	_	10	cc	_	_
+10	жәндіктерге	жәндік	NOUN	N	Case=Dat|Number=Plur	14	obl	_	_
+11	дейін	дейін	ADP	Post	_	10	case	_	_
+12	тіршілік	тіршілік	NOUN	N	Case=Nom	14	obl	_	_
+13	үшін	үшін	ADP	Post	_	12	case	_	_
+14	күреседі	күрес	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	Sent	_	14	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s13
+# text = Күндіз құда күтеміз, кешке думанды той.
+# translit = Kündız qūda kütemız, keşke dumandy toi.
+# translation = During the day we host guests, in the evening there is a festive celebration.
+1	Күндіз	күндіз	ADV	Adv	_	3	advmod	_	_
+2	құда	құда	NOUN	N	Case=Acc	3	obj	_	_
+3	күтеміз	күт	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	Cm	_	3	punct	_	_
+5	кешке	кеш	ADV	Adv	_	7	advmod	_	_
+6	думанды	думан	ADJ	Adj	_	7	amod	_	_
+7	той	той	NOUN	N	Case=Nom	3	conj	_	SpaceAfter=No
+8	.	.	PUNCT	Sent	_	3	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s14
+# text = Абай халықты той тойлауға емес, еңбек етуге, рухани кемелденуге шақырды.
+# translit = Abai halyqty toi toilauğa emes, eñbek etuge, ruhani kemeldenuge şaqyrdy.
+# translation = Abai called people not to celebrate but to work and achieve spiritual growth.
+1	Абай	Абай	PROPN	Np	Case=Nom	12	nsubj	_	_
+2	халықты	халық	NOUN	N	Case=Acc	12	obj	_	_
+3	той	той	NOUN	N	Case=Nom	4	obj	_	_
+4	тойлауға	тойла	VERB	V	Case=Dat|VerbForm=Inf	12	xcomp	_	_
+5	емес	емес	PART	Part	_	12	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	Cm	_	5	punct	_	_
+7	еңбек	еңбек	NOUN	N	Case=Nom	8	obj	_	_
+8	етуге	ет	VERB	V	Case=Dat|VerbForm=Inf	12	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	Cm	_	8	punct	_	_
+10	рухани	рухани	ADJ	Adj	_	11	amod	_	_
+11	кемелденуге	кемелден	VERB	V	Case=Dat|VerbForm=Inf	12	xcomp	_	_
+12	шақырды	шақыр	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	Sent	_	12	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s15
+# text = Сонымен, бұл оқиғаның мәнісі сол: түптеп келгенде, табиғат адамға оның орнын көрсетті!
+# translit = Sonymen, būl oqiğanyñ mänısı sol: tüptep kelgende, tabiğat adamğa onyñ ornyn körsettı!
+# translation = So, the meaning of this event is this: ultimately, nature showed humans their place!
+1	Сонымен	сонымен	ADV	Adv	_	6	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	Cm	_	6	punct	_	_
+3	бұл	бұл	PRON	Prn	PronType=Dem	4	det	_	_
+4	оқиғаның	оқиға	NOUN	N	Case=Gen	5	nmod	_	_
+5	мәнісі	мән	NOUN	N	Case=Nom|Person[psor]=3	6	nsubj	_	_
+6	сол	сол	PRON	Prn	PronType=Dem	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	Punct	_	6	punct	_	_
+8	түптеп	түпте	VERB	V	VerbForm=Conv	15	advcl	_	_
+9	келгенде	кел	VERB	V	Tense=Past|VerbForm=Conv	15	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	Cm	_	15	punct	_	_
+11	табиғат	табиғат	NOUN	N	Case=Nom	15	nsubj	_	_
+12	адамға	адам	NOUN	N	Case=Dat	15	obl	_	_
+13	оның	ол	PRON	Prn	Case=Gen|Person=3	14	nmod	_	_
+14	орнын	орын	NOUN	N	Case=Acc	15	obj	_	_
+15	көрсетті	көрсет	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	6	parataxis	_	SpaceAfter=No
+16	!	!	PUNCT	Sent	_	15	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s16
+# text = Аудармамен айналысып келе жатқаныма 45 жыл болды.
+# translit = Audarmamen ainalysyp kele jatqanyma 45 jyl boldy.
+# translation = I have been engaged in translation for 45 years.
+1	Аудармамен	аударма	NOUN	N	Case=Ins	2	obl	_	_
+2	айналысып	айналыс	VERB	V	VerbForm=Conv	3	advcl	_	_
+3	келе	кел	VERB	V	VerbForm=Conv	4	advcl	_	_
+4	жатқаныма	жат	VERB	V	Case=Dat|Number=Sing|Person=1|VerbForm=Part	6	obl	_	_
+5	45	45	NUM	Num	NumType=Card	6	nummod	_	_
+6	жыл	жыл	NOUN	N	Case=Nom	7	nsubj	_	_
+7	болды	бол	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	Sent	_	7	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s17
+# text = Өте тартысты бәйге болды.
+# translit = Öte tartysty bäige boldy.
+# translation = It was a very competitive race.
+1	Өте	өте	ADV	Adv	_	2	advmod	_	_
+2	тартысты	тартыс	ADJ	Adj	_	3	amod	_	_
+3	бәйге	бәйге	NOUN	N	Case=Nom	4	nsubj	_	_
+4	болды	бол	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	Sent	_	4	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s18
+# text = Біз Алматыда отырғанымызды ұмытпауымыз керек.
+# translit = Bız Almatyda otyrğanymyzdy ūmytpauymyz kerek.
+# translation = We must not forget that we are in Almaty.
+1	Біз	біз	PRON	Prn	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	Алматыда	Алматы	PROPN	Np	Case=Loc	3	obl	_	_
+3	отырғанымызды	отыр	VERB	V	Case=Acc|Number=Plur|Person=1|VerbForm=Part	4	obj	_	_
+4	ұмытпауымыз	ұмыт	VERB	V	Number=Plur|Person=1|Polarity=Neg|VerbForm=Part	5	nsubj	_	_
+5	керек	керек	ADJ	Adj	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	Sent	_	5	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s19
+# text = Шәкеңді алдауға болмайды.
+# translit = Şäkeñdı aldauğa bolmaidy.
+# translation = You can’t deceive Shaken.
+1	Шәкеңді	Шәке	PROPN	Np	Case=Acc	2	obj	_	_
+2	алдауға	алда	VERB	V	Case=Dat|VerbForm=Inf	3	obl	_	_
+3	болмайды	бол	VERB	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	Sent	_	3	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s20
+# text = Болмайды да.
+# translit = Bolmaidy da.
+# translation = You just can’t.
+1	Болмайды	бол	VERB	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	_
+2	да	да	PART	Part	_	1	discourse	_	SpaceAfter=No
+3	.	.	PUNCT	Sent	_	1	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s21
+# text = Мен жұмыс істеуім керек.
+# translit = Men jūmys ısteuım kerek.
+# translation = I have to work.
+1	Мен	мен	PRON	Prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	жұмыс	жұмыс	NOUN	N	Case=Nom	3	compound	_	_
+3	істеуім	істе	VERB	V	Number=Sing|Person=1|VerbForm=Part	4	nsubj	_	_
+4	керек	керек	ADJ	Adj	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	Sent	_	4	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s22
+# text = Екеуміз дос боламыз.
+# translit = Ekeumız dos bolamyz.
+# translation = We two will be friends.
+1	Екеуміз	екеу	NUM	Num	Case=Nom	3	nsubj	_	_
+2	дос	дос	NOUN	N	Case=Nom	3	xcomp	_	_
+3	боламыз	бол	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	Sent	_	3	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s23
+# text = Сен де бізбен бірге бол.
+# translit = Sen de bızben bırge bol.
+# translation = You be with us too.
+1	Сен	сен	PRON	Prn	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
+2	де	де	PART	Part	_	5	discourse	_	_
+3	бізбен	біз	PRON	Prn	Case=Ins|Number=Plur|Person=1|PronType=Prs	5	obl	_	_
+4	бірге	бірге	ADV	Adv	_	5	advmod	_	_
+5	бол	бол	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	Sent	_	5	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s24
+# text = Бұл жолы да суретшілік өнерім көмектесті десем болады.
+# translit = Būl joly da suretşılık önerım kömektestı desem bolady.
+# translation = This time too, my artistic skills helped me, I can say.
+1	Бұл	бұл	DET	Det	PronType=Dem	5	det	_	_
+2	жолы	жол	NOUN	N	Case=Loc	5	obl	_	_
+3	да	да	ADV	Postadv	_	2	advmod	_	_
+4	суретшілік	суретшілік	NOUN	N	Case=Nom	5	compound	_	_
+5	өнерім	өнер	NOUN	N	Case=Nom	6	nsubj	_	_
+6	көмектесті	көмектес	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	ccomp	_	_
+7	десем	де	VERB	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	8	ccomp	_	_
+8	болады	бол	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	Sent	_	8	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s25
+# text = Бұған қол жеткізе аламыз ба?
+# translit = Būğan qol jetkıze alamyz ba?
+# translation = Can we achieve this?
+1	Бұған	бұл	DET	Det	PronType=Dem	3	obl	_	_
+2	қол	қол	NOUN	N	Case=Nom	3	obj	_	_
+3	жеткізе	жеткіз	VERB	V	VerbForm=Conv	0	root	_	_
+4	аламыз	ал	AUX	Aux	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+5	ба	ба	PART	Qst	_	3	discourse	_	SpaceAfter=No
+6	?	?	PUNCT	Sent	_	3	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s26
+# text = Олар «жазып бер» деді.
+# translit = Olar «jazyp ber» dedı.
+# translation = They said “write it down.”
+1	Олар	ол	PRON	Prn	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+2	«	«	PUNCT	Punct	_	3	punct	_	SpaceAfter=No
+3	жазып	жаз	VERB	V	VerbForm=Conv	6	ccomp	_	_
+4	бер	бер	AUX	Aux	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	3	aux	_	SpaceAfter=No
+5	»	»	PUNCT	Punct	_	3	punct	_	_
+6	деді	де	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	Sent	_	6	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s27
+# text = Ақ жейде киген жас жігіт тұр екен.
+# translit = Aq jeide kigen jas jıgıt tūr eken.
+# translation = A young man wearing a white shirt was standing.
+1	Ақ	ақ	ADJ	Adj	_	2	amod	_	_
+2	жейде	жейде	NOUN	N	Case=Nom	3	obj	_	_
+3	киген	ки	VERB	V	Tense=Past|VerbForm=Part	5	acl	_	_
+4	жас	жас	ADJ	Adj	_	5	amod	_	_
+5	жігіт	жігіт	NOUN	N	Case=Nom	6	nsubj	_	_
+6	тұр	тұр	VERB	V	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	екен	е	AUX	Aux	Evident=Fh|Number=Sing|Person=3|VerbForm=Fin	6	aux	_	SpaceAfter=No
+8	.	.	PUNCT	Sent	_	6	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s28
+# text = Әдебиетшілер ақ параққа қара сиямен жазады.
+# translit = Ädebietşıler aq paraqqa qara siamen jazady.
+# translation = Writers write on white paper with black ink.
+1	Әдебиетшілер	әдебиетші	NOUN	N	Case=Nom|Number=Plur	6	nsubj	_	_
+2	ақ	ақ	ADJ	Adj	_	3	amod	_	_
+3	параққа	парақ	NOUN	N	Case=Dat	6	obl	_	_
+4	қара	қара	ADJ	Adj	_	5	amod	_	_
+5	сиямен	сия	NOUN	N	Case=Ins	6	obl	_	_
+6	жазады	жаз	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	Sent	_	6	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s29
+# text = Сонда, бұл не?
+# translit = Sonda, būl ne?
+# translation = So, what is this?
+1	Сонда	сонда	ADV	Adv	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	Cm	_	1	punct	_	_
+3	бұл	бұл	PRON	Prn	Case=Nom|PronType=Dem	4	nsubj	_	_
+4	не	не	PRON	Prn	PronType=Int	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	Sent	_	4	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s30
+# text = Хал-жағдайларың қалай?
+# translit = Hal-jağdailaryñ qalai?
+# translation = How are you doing?
+1	Хал-жағдайларың	хал-жағдай	NOUN	N	Case=Nom|Number[psor]=Plur|Person[psor]=2	2	nsubj	_	_
+2	қалай	қалай	ADV	Adv	_	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	Sent	_	2	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s31
+# text = Қалың қалай?
+# translit = Qalyñ qalai?
+# translation = How are you?
+1	Қалың	қалың	NOUN	N	Case=Nom|Number[psor]=Sing|Person[psor]=2	2	nsubj	_	_
+2	қалай	қалай	ADV	Adv	_	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	Sent	_	2	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s32
+# text = Жолақыны кім төлейді?
+# translit = Jolaqyny kım töleidı?
+# translation = Who will pay the fare?
+1	Жолақыны	жолақы	NOUN	N	Case=Acc	3	obj	_	_
+2	кім	кім	PRON	Prn	Case=Nom|PronType=Int	3	nsubj	_	_
+3	төлейді	төле	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	Sent	_	3	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s33
+# text = Бізді мына сұмдықтан құтқар.
+# translit = Bızdı myna sūmdyqtan qūtqar.
+# translation = Save us from this horror.
+1	Бізді	біз	PRON	Prn	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	obj	_	_
+2	мына	мына	DET	Det	PronType=Dem	3	det	_	_
+3	сұмдықтан	сұмдық	NOUN	N	Case=Abl	4	obl	_	_
+4	құтқар	құтқар	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	Sent	_	4	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s34
+# text = Сәбит, кел, жаныма отыр.
+# translit = Säbit, kel, janyma otyr.
+# translation = Säbit, come, sit beside me.
+1	Сәбит	Сәбит	PROPN	Np	Case=Nom	3	vocative	_	SpaceAfter=No
+2	,	,	PUNCT	Cm	_	1	punct	_	_
+3	кел	кел	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	Cm	_	3	punct	_	_
+5	жаныма	жан	NOUN	N	Case=Dat	6	obl	_	_
+6	отыр	отыр	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
+7	.	.	PUNCT	Sent	_	3	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s35
+# text = Саған айтар бір қуанышты жаңалығым бар.
+# translit = Sağan aitar bır quanyşty jañalyğym bar.
+# translation = I have a joyful piece of news to tell you.
+1	Саған	сен	PRON	Prn	Case=Dat|Number=Sing|Person=2|PronType=Prs	5	obl	_	_
+2	айтар	айт	VERB	V	Tense=Fut|VerbForm=Part	5	acl	_	_
+3	бір	бір	DET	Det	PronType=Ind	5	det	_	_
+4	қуанышты	қуанышты	ADJ	Adj	_	5	amod	_	_
+5	жаңалығым	жаңалық	NOUN	N	Case=Nom|Number[psor]=Sing|Person[psor]=1	6	nsubj	_	_
+6	бар	бар	ADJ	Adj	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	Sent	_	6	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s36
+# text = Жер бетінде қаншама адам болса, соншама тағдыр барына ешкім күмән келтірмейді.
+# translit = Jer betınde qanşama adam bolsa, sonşama tağdyr baryna eşkım kümän keltırmeidı.
+# translation = No one doubts that there are as many fates on earth as there are people.
+1	Жер	жер	NOUN	N	Case=Nom	2	nmod	_	_
+2	бетінде	бет	NOUN	N	Case=Loc	5	obl	_	_
+3	қаншама	қаншама	DET	Det	PronType=Ind	4	det	_	_
+4	адам	адам	NOUN	N	Case=Nom	5	nsubj	_	_
+5	болса	бол	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	10	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	Cm	_	5	punct	_	_
+7	соншама	соншама	DET	Det	PronType=Ind	8	det	_	_
+8	тағдыр	тағдыр	NOUN	N	Case=Nom	9	nsubj	_	_
+9	барына	бар	VERB	V	Case=Dat|VerbForm=Part	12	ccomp	_	_
+10	ешкім	ешкім	PRON	Prn	Case=Nom|PronType=Neg	12	nsubj	_	_
+11	күмән	күмән	NOUN	N	Case=Nom	12	compound:lvc	_	_
+12	келтірмейді	келтір	VERB	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	Sent	_	12	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s37
+# text = Жасанды интеллект адам өміріне жақсы өзгерістер, ыңғайлылық әкеледі.
+# translit = Jasandy intellekt adam ömırıne jaqsy özgerıster, yñğailylyq äkeledı.
+# translation = Artificial intelligence brings good changes and convenience to human life.
+1	Жасанды	жасанды	ADJ	Adj	_	2	amod	_	_
+2	интеллект	интеллект	NOUN	N	Case=Nom	9	nsubj	_	_
+3	адам	адам	NOUN	N	Case=Nom	4	nmod	_	_
+4	өміріне	өмір	NOUN	N	Case=Dat	9	obl	_	_
+5	жақсы	жақсы	ADJ	Adj	_	6	amod	_	_
+6	өзгерістер	өзгеріс	NOUN	N	Case=Nom|Number=Plur	9	obj	_	SpaceAfter=No
+7	,	,	PUNCT	Cm	_	6	punct	_	_
+8	ыңғайлылық	ыңғайлылық	NOUN	N	Case=Nom	6	conj	_	_
+9	әкеледі	әкел	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	Sent	_	9	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s38
+# text = Кітап қағазы сапалы, безендірілуі тіптен әдемі.
+# translit = Kıtap qağazy sapaly, bezendırıluı tıpten ädemı.
+# translation = The paper of the book is of high quality, and the design is very beautiful.
+1	Кітап	кітап	NOUN	N	Case=Nom	2	nmod	_	_
+2	қағазы	қағаз	NOUN	N	Case=Nom	3	nsubj	_	_
+3	сапалы	сапалы	ADJ	Adj	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	Cm	_	3	punct	_	_
+5	безендірілуі	безендір	VERB	V	Case=Nom|Number=Sing|Person=3|VerbForm=Part	7	nsubj	_	_
+6	тіптен	тіптен	ADV	Adv	_	7	advmod	_	_
+7	әдемі	әдемі	ADJ	Adj	_	3	conj	_	SpaceAfter=No
+8	.	.	PUNCT	Sent	_	3	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s39
+# text = Бала болсақ та түйсініп, іштей түсініп жүрміз.
+# translit = Bala bolsaq ta tüisınıp, ıştei tüsınıp jürmız.
+# translation = Even though we are children, we feel and understand inwardly.
+1	Бала	бала	NOUN	N	Case=Nom	2	nsubj	_	_
+2	болсақ	бол	AUX	Aux	Mood=Cnd|Number=Plur|Person=1|VerbForm=Fin	7	advcl	_	_
+3	та	та	CCONJ	Cnjcoo	_	2	cc	_	_
+4	түйсініп	түйсін	VERB	V	VerbForm=Conv	7	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	Cm	_	4	punct	_	_
+6	іштей	іштей	ADV	Adv	_	7	advmod	_	_
+7	түсініп	түсін	VERB	V	VerbForm=Conv	0	root	_	_
+8	жүрміз	жүр	AUX	Aux	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
+9	.	.	PUNCT	Sent	_	7	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s40
+# text = Жаз айлары жылдам өтеді, ал қыс мезгілі ұзаққа созылады.
+# translit = Jaz ailary jyldam ötedı, al qys mezgılı ūzaqqa sozylady.
+# translation = Summer months pass quickly, while winter lasts long.
+1	Жаз	жаз	NOUN	N	Case=Nom	2	nmod	_	_
+2	айлары	ай	NOUN	N	Case=Nom|Number=Plur	4	nsubj	_	_
+3	жылдам	жылдам	ADV	Adv	_	4	advmod	_	_
+4	өтеді	өт	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	Cm	_	4	punct	_	_
+6	ал	ал	CCONJ	Cnjcoo	_	10	cc	_	_
+7	қыс	қыс	NOUN	N	Case=Nom	8	nmod	_	_
+8	мезгілі	мезгіл	NOUN	N	Case=Nom	10	nmod	_	_
+9	ұзаққа	ұзақ	ADJ	Adj	Case=Dat	10	obl	_	_
+10	созылады	созыл	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No
+11	.	.	PUNCT	Sent	_	4	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s41
+# text = Әзиз атасына сәлем берді.
+# translit = Äziz atasyna sälem berdı.
+# translation = Äziz greeted his grandfather.
+1	Әзиз	Әзиз	PROPN	Np	Case=Nom	4	nsubj	_	_
+2	атасына	ата	NOUN	N	Case=Dat	4	obl	_	_
+3	сәлем	сәлем	NOUN	N	Case=Nom	4	obj	_	_
+4	берді	бер	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	Sent	_	4	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s42
+# text = Әңгімеңізге рахмет.
+# translit = Äñgımeñızge rahmet.
+# translation = Thank you for your conversation.
+1	Әңгімеңізге	әңгіме	NOUN	N	Case=Dat	2	obl	_	_
+2	рахмет	рахмет	INTJ	Intj	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	Sent	_	2	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s43
+# text = Таң мен кеш, күн мен түн араласып кетті.
+# translit = Tañ men keş, kün men tün aralasyp kettı.
+# translation = Morning and evening, day and night blended together.
+1	Таң	таң	NOUN	N	Case=Nom	5	nsubj	_	_
+2	мен	мен	CCONJ	Cnjcoo	_	3	cc	_	_
+3	кеш	кеш	NOUN	N	Case=Nom	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	Cm	_	5	punct	_	_
+5	күн	күн	NOUN	N	Case=Nom	9	nsubj	_	_
+6	мен	мен	CCONJ	Cnjcoo	_	7	cc	_	_
+7	түн	түн	NOUN	N	Case=Nom	5	conj	_	_
+8	араласып	аралас	VERB	V	VerbForm=Conv	9	advcl	_	_
+9	кетті	кет	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	Sent	_	9	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s44
+# text = Су қоймасы баспалдағының алдына түскен алтын тиын тірі көз сияқты қарап жатты.
+# translit = Su qoimasy baspaldağynyñ aldyna tüsken altyn tiyn tırı köz siaqty qarap jatty.
+# translation = The golden coin that had fallen in front of the reservoir’s stairs was staring like a living eye.
+1	Су	су	NOUN	N	Case=Nom	2	nmod	_	_
+2	қоймасы	қойма	NOUN	N	Case=Nom	7	nsubj	_	_
+3	баспалдағының	баспалдақ	NOUN	N	Case=Gen	4	nmod	_	_
+4	алдына	алд	NOUN	N	Case=Dat	7	obl	_	_
+5	түскен	түс	VERB	V	Tense=Past|VerbForm=Part	7	amod	_	_
+6	алтын	алтын	ADJ	Adj	_	7	amod	_	_
+7	тиын	тиын	NOUN	N	Case=Nom	11	nsubj	_	_
+8	тірі	тірі	ADJ	Adj	_	9	amod	_	_
+9	көз	көз	NOUN	N	Case=Nom	11	obl	_	_
+10	сияқты	сияқты	ADP	Post	_	9	case	_	_
+11	қарап	қара	VERB	V	VerbForm=Conv	12	advcl	_	_
+12	жатты	жат	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	Sent	_	12	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s45
+# text = Онда, үй алғанша жатақханада қайта тұра беруге болар еді.
+# translit = Onda, üi alğanşa jataqhanada qaita tūra beruge bolar edı.
+# translation = Then, until we get a house, it would have been possible to continue living in the dormitory.
+1	Онда	ол	ADV	Adv	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	Cm	_	1	punct	_	_
+3	үй	үй	NOUN	N	Case=Nom	4	obj	_	_
+4	алғанша	ал	VERB	V	Tense=Past|VerbForm=Conv	8	advcl	_	_
+5	жатақханада	жатақхана	NOUN	N	Case=Loc	8	obl	_	_
+6	қайта	қайта	ADV	Adv	_	8	advmod	_	_
+7	тұра	тұр	VERB	V	VerbForm=Conv	8	advcl	_	_
+8	беруге	бер	VERB	V	Case=Dat|VerbForm=Part	0	root	_	_
+9	болар	бол	AUX	Aux	Mood=Opt|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+10	еді	е	AUX	Aux	Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	SpaceAfter=No
+11	.	.	PUNCT	Sent	_	8	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s46
+# text = Бірақ алдағы уақытта жақсы аудармалар жасағым келеді.
+# translit = Bıraq aldağy uaqytta jaqsy audarmalar jasağym keledı.
+# translation = But in the future, I want to make good translations.
+1	Бірақ	бірақ	CCONJ	Cnjcoo	_	5	cc	_	_
+2	алдағы	алда	ADJ	Adj	_	3	amod	_	_
+3	уақытта	уақыт	NOUN	N	Case=Loc	5	obl	_	_
+4	жақсы	жақсы	ADJ	Adj	_	5	amod	_	_
+5	аудармалар	аударма	NOUN	N	Case=Nom|Number=Plur	6	obj	_	_
+6	жасағым	жаса	VERB	V	Mood=Des|Number=Sing|Person=1|VerbForm=Part	7	ccomp	_	_
+7	келеді	кел	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	Sent	_	7	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s47
+# text = Иә, Мұхтар ағамыз бұған дейiн де есiмi ел аузына iлiнген әйдік сөз шеберi.
+# translit = İä, Mūhtar ağamyz būğan deiin de esimi el auzyna ilingen äidık söz şeberi.
+# translation = Yes, our elder Mukhtar has long been a renowned master of words whose name is on everyone’s lips.
+1	Иә	иә	INTJ	Intj	_	14	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	Cm	_	1	punct	_	_
+3	Мұхтар	Мұхтар	PROPN	Np	Case=Nom	14	nsubj	_	_
+4	ағамыз	аға	NOUN	N	Case=Nom	3	flat	_	_
+5	бұған	бұл	PRON	Prn	Case=Dat|PronType=Dem	6	obl	_	_
+6	дейiн	дейін	ADP	Post	_	14	obl	_	_
+7	де	де	ADV	Postadv	_	6	advmod	_	_
+8	есiмi	есім	NOUN	N	Case=Nom	9	nsubj	_	_
+9	ел	ел	NOUN	N	Case=Nom	13	nmod	_	_
+10	аузына	ауыз	NOUN	N	Case=Dat	13	obl	_	_
+11	iлiнген	ілін	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+12	әйдік	әйдік	ADJ	Adj	_	13	amod	_	_
+13	сөз	сөз	NOUN	N	Case=Nom	14	compound	_	_
+14	шеберi	шебер	NOUN	N	Case=Nom	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	Sent	_	14	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s48
+# text = Ауыздарынан ақ ит кіріп, көк ит шығып жатады.
+# translit = Auyzdarynan aq it kırıp, kök it şyğyp jatady.
+# translation = White dogs go in and blue dogs come out of their mouths. (idiom: they curse harshly)
+1	Ауыздарынан	ауыз	NOUN	N	Case=Abl|Number=Plur	4	obl	_	_
+2	ақ	ақ	ADJ	Adj	_	3	amod	_	_
+3	ит	ит	NOUN	N	Case=Nom	4	nsubj	_	_
+4	кіріп	кір	VERB	V	VerbForm=Conv	9	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	Cm	_	4	punct	_	_
+6	көк	көк	ADJ	Adj	_	7	amod	_	_
+7	ит	ит	NOUN	N	Case=Nom	8	nsubj	_	_
+8	шығып	шық	VERB	V	VerbForm=Conv	9	advcl	_	_
+9	жатады	жат	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	Sent	_	9	punct	_	_
+
+# sent_id = kaz-corpus-s49
+# text = Абылай – жас прозашы.
+# translit = Abylai – jas prozaşy.
+# translation = Abylai is a young prose writer.
+1	Абылай	Абылай	PROPN	Np	Case=Nom	3	nsubj	_	_
+2	–	–	PUNCT	Punct	_	3	punct	_	_
+3	жас	жас	ADJ	Adj	_	4	amod	_	_
+4	прозашы	прозашы	NOUN	N	Case=Nom	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	Sent	_	4	punct	_	SpaceAfter=No
+
+# sent_id = kaz-corpus-s50
+# text = Жапалақтап қар жауды.
+# translit = Japalaqtap qar jaudy.
+# translation = Snow fell heavily in large flakes.
+1	Жапалақтап	жапалақ	ADV	Adv	_	3	advmod	_	_
+2	қар	қар	NOUN	N	Case=Nom	3	nsubj	_	_
+3	жауды	жау	VERB	V	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	Sent	_	3	punct	_	_
+
